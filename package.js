@@ -14,7 +14,7 @@ Package.on_use(function(api, where) {
   ], 'client');
 
   api.use([
-    'useraccounts:core',
+    'd3k4y:useraccounts-core',
   ], ['client', 'server']);
 
   // Requires all routing packages loads before this asking for weak dependencies.
