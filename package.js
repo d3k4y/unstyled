@@ -22,7 +22,7 @@ Package.on_use(function(api, where) {
   api.use('useraccounts:iron-routing@1.14.2', ['client', 'server'], {weak: true});
 
   api.imply([
-    'useraccounts:core@1.14.2',
+    'd3k4y:useraccounts-core@1.14.3',
   ], ['client', 'server']);
 
   api.add_files([
@@ -69,7 +69,7 @@ Package.on_use(function(api, where) {
 
 Package.on_test(function(api) {
   api.use([
-    'useraccounts:unstyled',
+    'd3k4y:useraccounts-unstyled',
     'd3k4y:useraccounts-core@1.14.3',
   ]);
 
